@@ -1,0 +1,137 @@
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>实验报告</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="https:img.alicdn.com/imgextra/i2/O1CN01ZyAlrn1MwaMhqz36G_!!6000000001499-73-tps-64-64.ico" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="css/style2.css">
+  </head>
+
+<body id="lele">
+  <!-- Main navigation -->
+  <header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar ">
+      <div class="container">
+        <a class="navbar-brand " href="#">铲屎官的基本常识</a>
+        <!-- Collapse button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+          aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="basicExampleNav">
+          <!-- Links -->
+          <ul class="navbar-nav mr-auto  ">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">主页</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="jm.html">金毛</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gb.html">贵宾犬</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="lbld.html">拉布拉多</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="za.html">藏獒</a>
+            </li>
+            <!-- Dropdown -->
+          </ul>
+          <ul class="navbar-nav mr-auto left">
+            <li class="nav-item active">
+              <a class="nav-link" href="sybg.html">实验报告</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">注意事项</a>
+              <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="ys.html">饮食</a>
+                <a class="dropdown-item" href="ym.html">疫苗</a>
+              </div>
+            </li>
+          </ul>
+      </div>
+    </nav>
+    <h1 class="display-4 font-weight-bold white-text pt-5 mb-2 text-lg-center">《通信软件开发与应用》课程结业报告</h1>
+    <h3 class="font-weight-bold white-text">网页概述</h3>
+    <p>这次期末结业我采用静态的框架，做了一个关于狗的一个网站，并且将他托管在了gitgub上。由于我建立的是静态网页，所以我采用了MDB模板。MDB全名为MDBootstrap，Material Design 是谷歌于2014年推出用于媲美苹果的视觉设计规范。请访问其Material Design 官网了解。以Bootstrap 为基础，同时遵循 MD 规范的靓丽 CSS 框架也不少，构建了许多直接使用的组件。其中以 MDBootstrap 为最佳它有丰富的CSS模板，JS模板，所以只需要进行HTML和CSS的相应改变即可。
+        基于MDB的框架，我们可以快速的构建我们的网站，难度不大。</p>
+    <h3 class="font-weight-bold white-text">开发过程</h3>
+    <ol>
+        <li>根据老师提供的链接，下载MDB的模板</li>
+        <li>先对index.html进行创作，主要使用到导航条，对本页面的品种进行了页面滑动跳转，对注意事项和实验报告进行页面跳转，这部分难度不大，在官网教程中可以轻松找到代码。</li>
+        <li>在对页面的主要内容进行创作的时候，我用到了栅格和卡片标签，并且添加了可以跳转的按钮。在style.css中添加背景图片。</li>
+        <li>在对不同的狗狗的主页面中，我用到了一个轮播的图片，部分我还添加了video用来展示视频。为他们的背景图添加了动态效果</li>
+        <li>在对网页的底部进行创作时，我采用的是简单的文字</li>
+    </ol> 
+    <h3 class="font-weight-bold white-text">遇到的已解决问题</h3>
+    <ol>
+        <li>设计页面平滑跳转的时候，跳转后导航条会把部分内容挡住</li>
+        <p>解决方法：我在每个div的前面加了一个pre标签，并且为pre标签添上了id，以此将内容与浏览器顶端空出导航条的位置</p>
+        <li>在放入视频的时候，不支持视频的格式</li>
+        <p>解决方法：用软件将下载的视频进行格式转换</p>
+        <li>在刚开始编辑页面的时候，写完导航条后，直接在main中写入自己的主要内容，这导致header中有部分留白</li>
+        <p>解决方法：在导航条后增加一定内容来填白，或者直接在header中编辑自己的主要内容（不推荐）</p>
+    </ol>
+    <h3 class="font-weight-bold white-text">遇到的未解决问题</h3>
+    <ol>
+        <li>导入的背景图片未能全部显示</li>
+        <li>页面直接跳转和在本页面滑动跳转的导航条内容不能排列整齐</li>
+    </ol>
+    <h3 class="font-weight-bold white-text">总结</h3>
+    <p>本次课程结业实验，我学会了简单的网页Web制作，通过用改写MDB模板，来实现网页的制作。
+        实践过程中，我掌握了许多有关网页制作的知识，知道了静态网页和动态网页的区别。
+        在这次大作业中最让我印象深刻的是，当前我们浏览器的搜索器十分的拉跨，我想将视频转换格式，百度一下全是广告，极大的影响办事效率。
+        通过对静态网站的制作，我深深的明白了他的缺点。对于他的修改，相当的麻烦，耗时间。给我的观感来说，他十分的笨重，对于网页上的一些数据不能进行实时的更新。
+    </p>
+  </header>
+  <!--Main layout-->
+  <main>
+  </main>
+    
+   
+  <footer class="bg-light text-center text-lg-start">
+  </footer>
+  <!-- Footer -->
+
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript">
+    // MDB Lightbox Init
+    $(function () {
+      $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+    });
+    // 以下为动画效果新添加的两条语句
+    // Adding animations to the sections, 使用的是淡入, 你也可以试试zoomIn等动画
+    $("section").addClass("wow fadeIn");
+    // Animations Init, 注意必须放在ready方法中以防WOW对象没能加载成功
+    $(document).ready(function () {
+      new WOW().init();
+    });
+  </script>
+
+</body>
+
+</html>
