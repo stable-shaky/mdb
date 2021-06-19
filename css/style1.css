@@ -1,0 +1,64 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse ,.page-footer{
+  background-color: #4aaec7 !important;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #8cd0eb !important;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+}
+
+
+.streak.streak-photo {
+  background-attachment: fixed;
+}
+.wzcolor {
+    color: rgb(70, 42, 226);
+}
+
+
+.wzcolor1 {
+  color: rgb(25, 204, 228);
+  font-weight: 900;
+}
+.wzcolor2 {
+  color: rgb(27, 52, 197);
+  font-weight: 900;
+}
+
+.bj {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  object-fit: cover;
+}
+
